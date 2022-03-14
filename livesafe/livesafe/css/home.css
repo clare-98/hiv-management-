@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    color: #ccc;
+    background: #181818;
+    letter-spacing: .5px;
+}
+.header {
+    height: 130px;
+    background: #181818;
+    display: flex;
+}
+.logo {
+    float: left;
+    margin: auto 10px;
+}
+.logo img {
+    width: 30%;
+    padding: 15px;
+}
+.menu {
+    float: right;
+}
+.menu ul {
+	display: flex;
+	text-decoration: none;
+}
+.menu ul li {
+	display: flex;
+	text-decoration: none;
+    font-family: lato;
+    padding: 40px 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #60702a;
+	transition: color .6s;
+}
+.menu ul li a:hover {
+	color: #39702a;
+}
+.menu ul li form button {
+	border: 1px solid #60702a;
+    background: rgba(0,0,0,0);
+    color: #60702a;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .6s;
+}
+.menu ul li form button:hover {
+	border: 1px solid #39702a;
+    color: #39702a;
+}
+a:active {
+    color: yellowgreen;
+}
+hr {
+    margin: 0;
+    color: #555;
+}
+#content{
+	width: 50%;
+	margin:20px auto;
+	border:1px solid #cbcbcb;
+	margin-bottom: 50px;
+}
+form{
+	width:50%;
+	margin:20px auto;
+}
+form div{
+	margin-top: 5px;
+}
+hr{
+	width:80% auto;
+	height: 2px solid red;
+	margin-bottom: 30px;
+}
+#img_div{
+	width:80%;
+	padding: 5px;
+	margin:15px auto;
+	border:1px solid #cbcbcb;
+}
+#img_div:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+img{
+	float: left;
+	margin:5px;
+	width:300px;
+	height:140px;
+}
+.admin-add{
+	margin:10px auto;
+	border:none;
+	text-align: center;
+}
+.success{
+	border:1px solid #181918;
+	display:inline-block;
+
+}

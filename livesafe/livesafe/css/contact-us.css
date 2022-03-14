@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    color: #ccc;
+    background: #181818;
+    letter-spacing: .5px;
+}
+.header {
+    height: 130px;
+    background: #181818;
+    display: flex;
+}
+.logo {
+    float: left;
+    margin: auto 10px;
+}
+.logo img {
+    width: 30%;
+    padding: 15px;
+}
+.menu {
+    float: right;
+}
+.menu ul {
+	display: flex;
+	text-decoration: none;
+}
+.menu ul li {
+	display: flex;
+	text-decoration: none;
+    font-family: lato;
+    padding: 40px 20px;
+}
+.menu ul li a {
+	text-decoration: none;
+	color: #60702a;
+	transition: color .6s;
+}
+.menu ul li a:hover {
+	color: #39702a;
+}
+.menu ul li form button {
+	border: 1px solid #60702a;
+    background: rgba(0,0,0,0);
+    color: #60702a;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .6s;
+}
+.menu ul li form button:hover {
+	border: 1px solid #39702a;
+    color: #39702a;
+}
+a:active {
+    color: yellowgreen;
+}
+hr {
+    margin: 0;
+    color: #555;
+}
+.content {
+    font-family: lato;
+    padding: 50px;
+    margin: 0 50px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+.form form{
+    width: 50%;
+    padding-bottom: 1.3rem;
+}
+.form label{
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.form .text-input{
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 2px;
+    background: #181818;
+    border-color: #555;
+    border: 1px solid #555;
+    color: #ccc;
+    padding: 0.3rem 1rem;
+    line-height: 1.3rem;
+}
+.form textarea {
+    width: 85%;
+    height: 200px;
+    background: #181818;
+    color: #ccc;
+    border: 1px solid #555;
+    padding: 7px;
+}
+.send-btn {
+    border: 1px solid #60702a;
+    background: #60702a;
+    color: #ccc;
+    padding: 7px;
+    border-radius: 2px;
+    width: 13%;
+    transition: all .6s;
+}
+.send-btn:hover {
+    border: 1px solid yellowgreen;
+    background: yellowgreen;
+    color: #181818;
+}
+.error {
+    margin: 5px;
+    padding: 5px;
+    color: red;
+    border: 1px solid red;
+}
+.success {
+    margin: 10px;
+    padding: 5px;
+    color: green;
+    border: 1px solid green;
+    text-align: center;
+}
+.footer {
+    background: #181818;
+    font-family: lato;
+    height: 30px;
+    color: #555;
+    padding: 10px;
+    text-align: center;
+}
+#img_div{
+    border-bottom:1px solid green;
+}
+.logo img{
+    margin-right: 20px;
+}
